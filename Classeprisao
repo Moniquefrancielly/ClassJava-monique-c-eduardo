@@ -1,0 +1,32 @@
+
+public class Prisao {
+    String nome;
+    String localizacao;
+    int capacidadeMaxima;
+    String regras;
+    String detentos;
+      
+    void Status(){
+        System.out.println("a prisão:"+ this.nome);
+        System.out.println("sua localização é: "+ this.localizacao);
+        System.out.println("tem a capacidade maxima de: "+ this.capacidadeMaxima);
+        System.out.println("a regra mais importante é "+ this.regras);
+    }
+   
+    void adicionarDetento(){
+      
+    }
+    void removerDetento() {
+        
+    }
+    void listarRegras(){
+        System.out.println("Regras da prisão "+ this.regras);
+    }   
+    void exibirDetalhes(){
+        Status();
+        System.out.println("Detentos atuais: "+detentos);
+    }
+    void listarCapacidadeAtual(){
+       
+    }
+}
