@@ -1,0 +1,12 @@
+public class ClassePrisao {
+
+    public static void main(String[] args) {
+        Prisao c1 = new Prisao();
+        c1.nome= "carandiú";
+        c1.localizacao= "Av. Cruzeiro do Sul, 2630";
+        c1.regras= "respeito ás autoridades";
+        c1.capacidadeMaxima= 1200;
+        c1.detentos= "João";
+        c1.Status();
+        
+    }
